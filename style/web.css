@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family:OpenSans_Condensed-BoldItalic ;
+  src: url(../Fonts/OpenSans_Condensed-BoldItalic.ttf);
+}
+@font-face {
+  font-family:OpenSans_Condensed-MediumItalic ;
+  src: url(../Fonts/OpenSans_Condensed-MediumItalic.ttf);
+}
+h1{
+  font-family:OpenSans_Condensed-BoldItalic  ;
+}
+p{
+  font-family: OpenSans_Condensed-MediumItalic;
+}
+
+.contanier {
+  background-image: url(../images/Fassade_Wilhelmstrasse_65\,_Berlin-Mitte\,_160417\,_ako.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh ;
+  margin: 0 auto;
+  height: 250px !important;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left : 595px;
+  transform: translate(-50%, -50%);
+  font-size: 35px;
+  font-weight: 400;
+  color:burlywood;
+}
+
+.content {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+
+.glass {
+  background-color: rgba(112, 128, 144, 0.822);
+  padding: 10px 10px;
+}
+
+.content img{
+  width: 250px;
+  height: 250px;
+}
+
+a{
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.content a h5{
+  color: rgb(59, 59, 150);
+  margin-top: 0;
+}.title {
+  padding-top: 250px ;
+ padding-left: 450px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+section{
+margin: 0;
+padding: 0;
+}
+
+.collectionTitle{
+  padding-top: 50px;
+  padding-left: 450px;
+}
+
+.backsplash{
+  padding: 0px 20px;
+  display: flex;
+  column-gap: 70px;
+  width: 100%;
+  justify-content: center;
+  /* background-color: blanchedalmond; */
+}
+
+.backsplash img{
+  height: 250px;
+  width: 15%;
+ padding-top: 50px;
+}
+.backsplash img:hover{
+  transition: 1s ease-out;
+  transform: scale(1.5);
+}
+.content div:first-child{
+  padding-left: 10px;
+} 
+.content div:last-child{
+  padding-right: 10px;
+} 
